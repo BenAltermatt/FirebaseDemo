@@ -63,7 +63,6 @@ public class AuthManager : MonoBehaviour
     // this handles the login button 
     public void LoginButton()
     {
-        Debug.Log("AHHHAHAH");
         // Call the login coroutine passing the email and pasword
         StartCoroutine(Login(emailLoginField.text, passwordLoginField.text));
     }
